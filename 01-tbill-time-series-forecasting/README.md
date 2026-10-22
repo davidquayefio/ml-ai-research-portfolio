@@ -1,69 +1,96 @@
-# Time Series Forecasting Using Ghana's 91-Day Treasury Bill Rate
+# Forecasting Ghana’s 91-Day Treasury Bill Rates
 
 ## Overview
 
-This project investigates the historical behaviour and forecasting of Ghana's 91-day Treasury bill rates using traditional time-series models and machine-learning approaches.
+This project presents my final-year research in Statistics at Accra Technical University. It investigates time-series forecasting methods for Ghana’s 91-day Treasury bill rate, comparing traditional statistical models with machine learning and deep learning approaches.
 
-Completed as my final-year research project for my Statistics degree at Accra Technical University, the study explores how different modelling approaches can be applied to financial time-series data.
+The research explores how different modelling approaches capture changes in Treasury bill rates and examines the challenges of forecasting a financial time series characterised by periods of substantial volatility.
 
 ## Research Objectives
 
-- Examine historical patterns and variability in Ghana's 91-day Treasury bill rates.
-- Investigate stationarity and relevant time-series characteristics.
-- Compare traditional forecasting methods with machine-learning approaches.
-- Examine model diagnostics and forecasting behaviour.
-- Consider the practical limitations of forecasting financial rates.
+The study aims to:
+
+- Examine the historical behaviour and statistical properties of Ghana’s 91-day Treasury bill rate.
+- Investigate stationarity and apply differencing where appropriate.
+- Compare statistical, machine learning, and deep learning forecasting approaches.
+- Examine reported model results and their implications for financial time-series forecasting.
+- Identify limitations and opportunities for further research.
 
 ## Models Examined
 
-- ARIMA
-- SARIMA
-- Holt-Winters exponential smoothing
-- Prophet
-- Artificial Neural Network (ANN)
-- Long Short-Term Memory (LSTM)
+The thesis investigates six forecasting approaches:
+
+| Model | Approach |
+|---|---|
+| ARIMA | Autoregressive Integrated Moving Average |
+| SARIMA | Seasonal Autoregressive Integrated Moving Average |
+| Holt-Winters | Exponential smoothing |
+| Prophet | Time-series forecasting framework |
+| ANN | Artificial Neural Network |
+| LSTM | Long Short-Term Memory neural network |
+
+These models represent different approaches to capturing temporal patterns, trends, and nonlinear relationships in time-series data.
 
 ## Data and Methodology
 
-The thesis reports 381 observations covering June 2017 to May 2025. The analysis includes descriptive statistics, stationarity testing, time-series modelling, and model comparisons.
+The thesis reports **381 daily observations** of Ghana’s 91-day Treasury bill rate, covering June 2017 to May 2025.
 
-The original thesis contains some inconsistencies in its stated study-period dates. These should be reconciled against the underlying dataset and analysis before presenting this repository as a fully reproducible study.
+The reported methodology includes:
 
-## Key Findings Reported in the Thesis
+- Exploratory analysis of the rate series.
+- Assessment of stationarity using the Augmented Dickey-Fuller (ADF) test.
+- First-order differencing to address nonstationarity.
+- Statistical model specification and comparison.
+- Evaluation of traditional forecasting methods alongside neural-network approaches.
 
-- The series exhibited non-stationary behaviour before differencing.
-- ARIMA(1,1,0) had the lowest reported Akaike Information Criterion (AIC) among the discussed traditional models, with an AIC of 761.95.
-- The thesis describes changes in the Treasury bill rate's behaviour during 2022–2023.
-- The reported ANN and LSTM results showed different generalisation and forecasting behaviours.
+**Data-period note:** The thesis contains inconsistent study-period references across sections. The observation count and date range above reflect the reported data description and should be reconciled against the original dataset before the analysis is reproduced.
 
-**Interpretation note:** A lower AIC supports model selection under the criterion's assumptions; it does not, by itself, establish superior out-of-sample forecasting accuracy. Comparative accuracy claims should be supported by verified test-set metrics and an appropriate evaluation procedure.
+## Reported Findings
 
-## Research Scope
+The thesis reports several findings from its analysis:
 
-This project focuses on statistical modelling, financial time series, forecasting, and the comparison of econometric and machine-learning methods in the context of Ghana's fixed-income market.
+- The Treasury bill rate exhibited substantial variation over the period studied, including a period of elevated rates and volatility around 2022–2023.
+- The original series was reported as nonstationary, motivating first-order differencing.
+- The thesis reports an AIC of 761.95 for ARIMA(1,1,0) and 793.84 for SARIMA(1,1,1)(1,1,0,52).
+- The ANN was described as demonstrating strong generalisation, while the LSTM was reported to show overprediction and lagging behaviour on the test data.
 
-## Limitations and Future Work
+These are findings as reported in the thesis, not independently reproduced results. AIC values alone do not establish which model produces the most accurate out-of-sample forecasts. A rigorous comparison would also require clearly documented test periods, forecast errors, evaluation procedures, and reproducible experiments.
+
+## Limitations
+
+The research should be interpreted within the following limitations:
+
+- Inconsistent date references across the thesis need to be reconciled.
+- The original dataset and complete analysis code are not currently documented here as a reproducible research package.
+- Model performance claims require verification against the underlying predictions and evaluation metrics.
+- The reported analysis concerns historical observations and should not be interpreted as a current Treasury bill rate forecast or investment recommendation.
+
+## Future Research
 
 Potential extensions include:
 
-- Use a clearly documented chronological train/validation/test split.
-- Compare models using appropriate out-of-sample error metrics.
-- Investigate rolling-window or walk-forward validation.
-- Examine the effects of structural breaks and changing market regimes.
-- Evaluate forecast uncertainty and prediction intervals.
-- Document the data source, preprocessing, dependencies, and random seeds for reproducibility.
+1. Reconcile the study period and validate the underlying dataset.
+2. Publish the data-processing and modelling code where permitted.
+3. Evaluate models using chronological train-validation-test splits and rolling-origin backtesting.
+4. Compare forecast errors using appropriate metrics such as MAE and RMSE.
+5. Investigate parameter sensitivity, forecast stability, and performance across different market regimes.
+6. Assess whether additional economic or financial variables improve forecasting performance.
 
 ## Project Report
 
-The final-year thesis will be included in the `report/` directory, subject to any applicable university requirements and permissions.
+Read the complete final-year thesis:
+
+[**View or download the final-year thesis (PDF)**](Final%20Year%20Thesis.pdf)
 
 ## Author
 
-David Quayefio
+**David Quayefio**
 
-- LinkedIn: https://www.linkedin.com/in/david-quayefio/
-- GitHub: https://github.com/davidquayefio
+BTech Statistics — Accra Technical University
+
+- [LinkedIn](https://www.linkedin.com/in/david-quayefio/)
+- [GitHub](https://github.com/davidquayefio)
 
 ## Disclaimer
 
-This is an academic research project, not investment advice. Historical findings and forecasts should not be interpreted as current market predictions.
+This repository documents academic research on historical Treasury bill rates. The findings are presented for educational and research purposes only. They do not constitute investment advice, and no claim of current forecasting accuracy or investment profitability is made.
