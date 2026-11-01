@@ -53,3 +53,8 @@ Paper reproductions, extensions, ablation studies, robustness experiments, and e
 ## Long-Term Goal
 
 To develop the mathematical, statistical, computational, and research skills required to contribute to **Machine Learning and AI research**, with particular interests in **Financial ML and time-series learning**.
+
+## Projects
+
+- [01 · T-bill time-series forecasting](01-tbill-time-series-forecasting/)
+- [02 · Probability Simulation Laboratory](02-probability-simulation-laboratory/): 8 modules and 42 experiments on probability, Monte Carlo, stochastic processes, Brownian motion and financial risk simulation (Python, NumPy, SciPy).

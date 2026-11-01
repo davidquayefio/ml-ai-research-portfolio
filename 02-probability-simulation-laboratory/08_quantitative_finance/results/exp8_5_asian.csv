@@ -1,0 +1,4 @@
+,price,std_error
+"Asian (arithmetic), plain MC",5.843861213537792,0.02554793300237948
+"Asian (arithmetic), control variate",5.857674707866295,0.0007101486871781828
+European call (Black-Scholes),10.450583572185565,

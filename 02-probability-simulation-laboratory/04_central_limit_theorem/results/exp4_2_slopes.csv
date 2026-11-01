@@ -1,0 +1,5 @@
+distribution,points_above_floor,fitted_slope
+"Uniform(0,1)",2,
+Exponential(1),6,-0.5294769484938343
+Bernoulli(0.1),8,-0.4548175590643911
+"Lognormal(0,1)",8,-0.3921673407987944

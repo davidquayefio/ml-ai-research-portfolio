@@ -1,0 +1,12 @@
+distribution,kind,statistic,value,p_value
+Bernoulli(0.3),discrete,TV distance,0.003020000000000078,
+"Binomial(10, 0.3)",discrete,TV distance,0.0051516435000004595,
+Geometric(0.2),discrete,TV distance,0.004677110399351024,
+Poisson(4),discrete,TV distance,0.0047572098826706485,
+"Uniform(0, 1)",continuous,KS distance,0.003433021763641464,0.18879119419210788
+Exponential(rate 1.5),continuous,KS distance,0.0024147532660159093,0.6034252710581725
+"Normal(1, 2^2)",continuous,KS distance,0.0016007087973535505,0.9594874386702463
+"Gamma(2, scale 1.5)",continuous,KS distance,0.0018772685447464021,0.8719063731821208
+"Beta(2, 5)",continuous,KS distance,0.0026840049428121793,0.46640850856924965
+"Lognormal(0, 0.5^2)",continuous,KS distance,0.0020856473328282332,0.7762594991066558
+Student t(5),continuous,KS distance,0.0023514312467263487,0.6370825362771317
