@@ -1,0 +1,6 @@
+dropped_component,spearman_rho
+without_S1_weight_instability,0.957
+without_S2_input_sensitivity,0.997
+without_S3_overfitting_gap,0.954
+without_S4_regime_inconsistency,0.942
+without_S5_perturbation_fragility,0.969

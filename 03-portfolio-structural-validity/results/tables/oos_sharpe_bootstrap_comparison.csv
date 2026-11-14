@@ -1,0 +1,10 @@
+model,diff,ci_low,ci_high,p_value,CE_gain_gamma5_ann,CI_excludes_0
+gmv_long_only,-0.194,-0.659,0.21,0.404,-0.033,False
+mean_variance,0.02,-0.283,0.285,0.884,-0.004,False
+max_sharpe,-0.102,-0.533,0.297,0.618,-0.012,False
+min_vol_capped,0.114,0.011,0.223,0.036,0.008,True
+ledoit_wolf_minvar,-0.076,-0.501,0.305,0.706,-0.026,False
+robust_mv,-0.105,-0.509,0.263,0.604,-0.011,False
+risk_parity,0.111,-0.099,0.292,0.253,-0.005,False
+black_litterman,-0.333,-0.649,-0.044,0.032,-0.044,True
+cond_vol_minvar,-0.228,-0.657,0.172,0.284,-0.035,False

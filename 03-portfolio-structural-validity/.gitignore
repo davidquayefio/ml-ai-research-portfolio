@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+.DS_Store
+# raw downloads are large and revisable; record a hash in results/reports/data_log.txt instead
+data/raw/*.csv
+data/processed/*.csv

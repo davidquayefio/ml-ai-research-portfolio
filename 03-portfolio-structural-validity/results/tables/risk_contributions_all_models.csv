@@ -1,0 +1,6 @@
+,equal_weight,gmv_long_only,mean_variance,max_sharpe,min_vol_capped,ledoit_wolf_minvar,robust_mv,risk_parity,black_litterman,cond_vol_minvar
+SPY,0.251,0.054,0.219,0.219,0.289,0.144,0.067,0.2,0.0,0.0
+EFA,0.253,0.0,0.0,0.0,0.175,0.0,0.0,0.2,0.0,0.0
+AGG,0.043,0.922,0.078,0.044,0.058,0.757,0.0,0.2,0.0,0.972
+GLD,0.193,0.024,0.703,0.737,0.297,0.099,0.933,0.2,1.0,0.028
+VNQ,0.261,0.0,0.0,0.0,0.18,0.0,0.0,0.2,0.0,0.0

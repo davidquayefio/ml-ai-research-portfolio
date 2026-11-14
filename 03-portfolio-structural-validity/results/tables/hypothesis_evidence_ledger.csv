@@ -1,0 +1,8 @@
+Hypothesis,Evidence (table / figure),Verdict (supported / not supported / inconclusive),Caveat
+H1 optimised beats 1/N OOS net of costs,,,
+H2 shrinkage improves weight stability,,,
+H3 robust optimisation reduces input sensitivity,,,
+H4 weights less stable in stress,,,
+H5 estimation error materially raises realised risk,,,
+H6 gains are economically meaningful,,,
+H7 simple methods win after costs,,,

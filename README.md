@@ -56,5 +56,7 @@ To develop the mathematical, statistical, computational, and research skills req
 
 ## Projects
 
+- [03 · Portfolio Structural Validity](03-portfolio-structural-validity/): Research on the stability and out-of-sample performance of portfolio models (Python).
+
 - [01 · T-bill time-series forecasting](01-tbill-time-series-forecasting/)
 - [02 · Probability Simulation Laboratory](02-probability-simulation-laboratory/): 8 modules and 42 experiments on probability, Monte Carlo, stochastic processes, Brownian motion and financial risk simulation (Python, NumPy, SciPy).

@@ -1,0 +1,11 @@
+,mean_L1,turnover_equiv,avg_weight_std,n_ok
+equal_weight,0.0,0.0,0.0,200.0
+ledoit_wolf_minvar,0.049,0.025,0.012,200.0
+gmv_long_only,0.053,0.026,0.013,200.0
+risk_parity,0.063,0.032,0.015,200.0
+min_vol_capped,0.137,0.068,0.034,200.0
+cond_vol_minvar,0.218,0.109,0.041,200.0
+mean_variance,0.273,0.136,0.074,200.0
+black_litterman,0.399,0.2,0.154,200.0
+robust_mv,0.451,0.225,0.131,200.0
+max_sharpe,0.558,0.279,0.145,200.0
