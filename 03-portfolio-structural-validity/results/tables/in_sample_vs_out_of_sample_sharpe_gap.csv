@@ -1,0 +1,11 @@
+model,in_sample_sharpe,oos_sharpe_gross,gap
+max_sharpe,1.45,0.719,0.732
+robust_mv,1.327,0.718,0.609
+black_litterman,1.079,0.494,0.586
+mean_variance,1.25,0.838,0.412
+cond_vol_minvar,0.814,0.612,0.203
+gmv_long_only,0.798,0.608,0.189
+ledoit_wolf_minvar,0.91,0.728,0.182
+risk_parity,0.893,0.913,-0.02
+equal_weight,0.767,0.8,-0.033
+min_vol_capped,0.853,0.917,-0.063

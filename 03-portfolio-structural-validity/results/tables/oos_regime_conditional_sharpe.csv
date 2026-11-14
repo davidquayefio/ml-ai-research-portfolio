@@ -1,0 +1,11 @@
+model,high_vol,low_vol,mid_vol
+black_litterman,0.49,0.97,0.14
+cond_vol_minvar,0.43,1.41,0.27
+equal_weight,0.89,1.26,0.45
+gmv_long_only,0.47,1.33,0.41
+ledoit_wolf_minvar,0.62,1.47,0.47
+max_sharpe,0.4,1.87,0.77
+mean_variance,0.69,1.76,0.52
+min_vol_capped,0.98,1.29,0.67
+risk_parity,0.99,1.44,0.51
+robust_mv,0.41,1.84,0.53

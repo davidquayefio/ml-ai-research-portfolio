@@ -1,0 +1,11 @@
+regime,label,share
+vol_ex_post,mid_vol,0.34
+vol_ex_post,low_vol,0.33
+vol_ex_post,high_vol,0.33
+vol_ex_ante,high_vol,0.387
+vol_ex_ante,low_vol,0.312
+vol_ex_ante,mid_vol,0.3
+bull_bear,bull,0.925
+bull_bear,bear,0.075
+stress,normal,0.908
+stress,stress,0.092

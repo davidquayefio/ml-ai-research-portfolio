@@ -1,0 +1,47 @@
+{
+  "download_timestamp_utc": "2026-11-11T08:03:23.628132+00:00",
+  "source": "Yahoo Finance via yfinance (auto_adjust=True)",
+  "tickers": {
+    "SPY": "US large-cap equities",
+    "EFA": "Developed-market international equities",
+    "AGG": "US investment-grade bonds",
+    "GLD": "Gold (commodity)",
+    "VNQ": "US real estate (REITs)"
+  },
+  "requested_window": {
+    "start": "2012-01-01",
+    "end_exclusive": "2026-01-01"
+  },
+  "common_sample": {
+    "start": "2012-01-03",
+    "end": "2025-12-31"
+  },
+  "binding_ticker": "SPY",
+  "rows_before_alignment": 3520,
+  "rows_after_alignment": 3520,
+  "rows_dropped": 0,
+  "return_type": "simple",
+  "return_type_note": "TODO: write your justification here",
+  "n_return_observations": 3519,
+  "n_assets": 5,
+  "outlier_threshold_abs_z": 5.0,
+  "outlier_days_flagged_per_asset": {
+    "AGG": 10,
+    "EFA": 12,
+    "GLD": 6,
+    "SPY": 12,
+    "VNQ": 12
+  },
+  "outliers_removed": false,
+  "missing_values_filled": false,
+  "raw_file": "..\\data\\raw\\yfinance_raw_20261111.csv",
+  "library_versions": {
+    "python": "3.14.2",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "yfinance": "1.8.0"
+  }
+}

@@ -1,0 +1,4 @@
+stress_window,equal_weight,gmv_long_only,max_sharpe,ledoit_wolf_minvar,risk_parity,robust_mv
+Q4_2018_selloff,-0.047,0.005,-0.134,0.0,-0.018,-0.135
+COVID_crash,-0.086,0.011,0.01,0.009,-0.023,-0.1
+Rate_shock_2022,-0.184,-0.153,-0.147,-0.15,-0.161,-0.146

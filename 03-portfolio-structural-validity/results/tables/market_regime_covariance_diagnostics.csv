@@ -1,0 +1,8 @@
+scheme,regime,n_obs,mean_corr,avg_ann_vol,cond_number
+vol_ex_post,high_vol,1155.0,0.357,0.197,47.441
+vol_ex_post,low_vol,1155.0,0.254,0.097,28.63
+vol_ex_post,mid_vol,1189.0,0.295,0.121,32.76
+bull_bear,bear,263.0,0.516,0.253,53.225
+bull_bear,bull,3256.0,0.276,0.132,45.503
+stress,normal,3195.0,0.288,0.127,38.9
+stress,stress,324.0,0.422,0.259,50.496

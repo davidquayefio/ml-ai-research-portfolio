@@ -1,0 +1,11 @@
+model,mean_turnover_equiv,p95_turnover_equiv,mean_vol_change,n_ok
+equal_weight,0.0,0.0,0.0,40.0
+gmv_long_only,0.014,0.033,0.001,40.0
+mean_variance,0.045,0.114,0.01,40.0
+max_sharpe,0.129,0.265,0.031,40.0
+min_vol_capped,0.042,0.078,0.002,40.0
+ledoit_wolf_minvar,0.022,0.034,0.012,40.0
+robust_mv,0.084,0.193,0.012,40.0
+risk_parity,0.012,0.021,0.003,40.0
+black_litterman,0.037,0.219,-0.028,40.0
+cond_vol_minvar,0.039,0.297,0.033,40.0

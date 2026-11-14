@@ -1,0 +1,11 @@
+,,mean_turnover,p95_turnover,mean_weight_std,mean_HHI,mean_effective_N,max_single_weight,min_single_weight
+rolling,gmv_long_only,0.008,0.022,0.02,0.838,1.196,0.966,0.0
+rolling,max_sharpe,0.098,0.352,0.193,0.594,1.804,1.0,0.0
+rolling,ledoit_wolf_minvar,0.012,0.025,0.031,0.755,1.335,0.934,0.0
+rolling,risk_parity,0.008,0.022,0.035,0.338,3.047,0.639,0.076
+rolling,robust_mv,0.118,0.296,0.186,0.563,1.974,1.0,0.0
+expanding,gmv_long_only,0.002,0.006,0.008,0.851,1.177,0.944,0.0
+expanding,max_sharpe,0.015,0.044,0.054,0.573,1.801,0.824,0.0
+expanding,ledoit_wolf_minvar,0.002,0.006,0.009,0.823,1.217,0.927,0.0
+expanding,risk_parity,0.002,0.005,0.019,0.382,2.651,0.639,0.081
+expanding,robust_mv,0.045,0.152,0.092,0.635,1.695,1.0,0.0
